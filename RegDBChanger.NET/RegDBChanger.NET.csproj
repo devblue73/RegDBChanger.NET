@@ -57,16 +57,19 @@
     <StartupObject>RegDBChanger.NET.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>67EB6FB225C2EBAF39C3CB9B6F6B3FF5BE9DFC55</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>E72D29E294D69AF8824C7D9CEB4E51C19DA46F7C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>RegDBChanger.NET_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>RegDBChanger.NET_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -110,13 +113,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="RegDBChanger.NET_1_TemporaryKey.pfx" />
     <None Include="RegDBChanger.NET_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GBST-AllIn.ico" />
     <Content Include="PALION.ICO" />
   </ItemGroup>
   <ItemGroup>

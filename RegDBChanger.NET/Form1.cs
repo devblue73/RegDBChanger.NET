@@ -359,7 +359,10 @@ namespace RegDBChanger.NET
                     cboDBName.Items.Add(item.ToString());
                 }
             }
-            cboDBName.SelectedIndex = 0;
+            if (cboDBName.Items.Count > 0)
+            {
+                cboDBName.SelectedIndex = 0;
+            }
         }
 
         private void SaveMRU()
