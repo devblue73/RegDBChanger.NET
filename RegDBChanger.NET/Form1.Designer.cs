@@ -45,26 +45,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 53);
+            this.label1.Location = new System.Drawing.Point(25, 65);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 13);
+            this.label1.Size = new System.Drawing.Size(191, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Point to DCA Database Server:";
             // 
             // cboDBName
             // 
             this.cboDBName.FormattingEnabled = true;
-            this.cboDBName.Location = new System.Drawing.Point(22, 69);
+            this.cboDBName.Location = new System.Drawing.Point(29, 85);
+            this.cboDBName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboDBName.Name = "cboDBName";
-            this.cboDBName.Size = new System.Drawing.Size(225, 21);
+            this.cboDBName.Size = new System.Drawing.Size(299, 24);
             this.cboDBName.TabIndex = 1;
             // 
             // chkBackupReg
             // 
             this.chkBackupReg.AutoSize = true;
-            this.chkBackupReg.Location = new System.Drawing.Point(22, 102);
+            this.chkBackupReg.Location = new System.Drawing.Point(29, 126);
+            this.chkBackupReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkBackupReg.Name = "chkBackupReg";
-            this.chkBackupReg.Size = new System.Drawing.Size(99, 17);
+            this.chkBackupReg.Size = new System.Drawing.Size(122, 20);
             this.chkBackupReg.TabIndex = 2;
             this.chkBackupReg.Text = "Backup registry";
             this.chkBackupReg.UseVisualStyleBackColor = true;
@@ -75,18 +78,21 @@
             this.grpBackupLoc.Controls.Add(this.btnBrowse);
             this.grpBackupLoc.Controls.Add(this.txtBackupLocation);
             this.grpBackupLoc.Enabled = false;
-            this.grpBackupLoc.Location = new System.Drawing.Point(12, 125);
+            this.grpBackupLoc.Location = new System.Drawing.Point(16, 154);
+            this.grpBackupLoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBackupLoc.Name = "grpBackupLoc";
-            this.grpBackupLoc.Size = new System.Drawing.Size(289, 70);
+            this.grpBackupLoc.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBackupLoc.Size = new System.Drawing.Size(385, 86);
             this.grpBackupLoc.TabIndex = 3;
             this.grpBackupLoc.TabStop = false;
             this.grpBackupLoc.Text = "Backup folder";
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(244, 25);
+            this.btnBrowse.Location = new System.Drawing.Point(325, 31);
+            this.btnBrowse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(27, 21);
+            this.btnBrowse.Size = new System.Drawing.Size(36, 26);
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "...";
             this.btnBrowse.UseVisualStyleBackColor = true;
@@ -94,16 +100,18 @@
             // 
             // txtBackupLocation
             // 
-            this.txtBackupLocation.Location = new System.Drawing.Point(13, 25);
+            this.txtBackupLocation.Location = new System.Drawing.Point(17, 31);
+            this.txtBackupLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBackupLocation.Name = "txtBackupLocation";
-            this.txtBackupLocation.Size = new System.Drawing.Size(225, 20);
+            this.txtBackupLocation.Size = new System.Drawing.Size(299, 22);
             this.txtBackupLocation.TabIndex = 0;
             // 
             // btnChange
             // 
-            this.btnChange.Location = new System.Drawing.Point(146, 201);
+            this.btnChange.Location = new System.Drawing.Point(195, 247);
+            this.btnChange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(75, 23);
+            this.btnChange.Size = new System.Drawing.Size(100, 28);
             this.btnChange.TabIndex = 4;
             this.btnChange.Text = "Change";
             this.btnChange.UseVisualStyleBackColor = true;
@@ -111,9 +119,10 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(227, 201);
+            this.btnClose.Location = new System.Drawing.Point(303, 247);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(100, 28);
             this.btnClose.TabIndex = 5;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -123,9 +132,10 @@
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(9, 9);
+            this.label2.Location = new System.Drawing.Point(12, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 35);
+            this.label2.Size = new System.Drawing.Size(385, 43);
             this.label2.TabIndex = 6;
             this.label2.Text = "All DCA applications on this Workstation/Server must be closed before making any " +
     "changes.";
@@ -133,9 +143,9 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 232);
+            this.ClientSize = new System.Drawing.Size(419, 286);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnChange);
@@ -145,6 +155,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
